@@ -18,6 +18,7 @@ public class DynamicListViewActivity extends AppCompatActivity {
     private ListView dynamicListView;
     private ArrayList<String> list;
     private ArrayAdapter<String> adapter;
+    private String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
